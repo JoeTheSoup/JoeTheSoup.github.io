@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    max-width: 100%;  /* Ensures nothing exceeds the screen width */
+    max-width: 100%;  
 }
 
 
@@ -12,15 +12,21 @@ body {
 
 .titleDiv{
     background-color: lightblue;
-    /* background-image: url('https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?cs=srgb&dl=pexels-elia-clerici-282848-912110.jpg&fm=jpg'); */
     background-image: url('assets/hongkong.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    opacity: 0;  /* Initially invisible */
+    padding-top: 250px;
+    padding-bottom: 400px;
+    opacity: 0;  
     animation: fadeIn 0.5s ease-in forwards;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+  }
 
 @keyframes fadeIn {
     from {
@@ -35,7 +41,7 @@ h1 {
     color: rgb(6, 0, 86);
     font-size: 80px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serifs;
+    font-family: 'Times New Roman', Times, serif;
     opacity: 0;  /* Initially invisible */
     animation: fadeIn 0.5s ease-in forwards;
 }
@@ -45,7 +51,7 @@ h2 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 0;
-    font-family: Georgia, 'Times New Roman', Times, serifs;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
@@ -53,7 +59,7 @@ h3 {
     color: rgb(200, 200, 255);
     text-align: center;
     font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serifs;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
@@ -62,7 +68,7 @@ h4 {
     text-align: center;
     font-size: 18px;
     margin-top: 0;
-    font-family: Georgia, 'Times New Roman', Times, serifs;
+    font-family:'Times New Roman', Times, serif;
     
 }
 
@@ -74,7 +80,7 @@ p1 {
     margin-top: 10px;
     padding-left: 8%;
     padding-right: 8%;
-    font-family: Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 p2 {
@@ -85,6 +91,7 @@ p2 {
     margin-bottom: 20px;
     padding-left: 5%;
     padding-right: 5%;
+    font-family: "Times New Roman", Times, serif;
 }
 
 teamPic{
@@ -99,7 +106,17 @@ pTeam{
     font-size: 20px;
     margin-bottom: 20px;
     text-align: left;
-    font-family: Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
+}
+
+pTeam2{
+    padding-left: 24px;
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
 }
 
 pTeamLarge{
@@ -109,7 +126,7 @@ pTeamLarge{
     width: 100%;
     font-size: 25px;
     text-align: left;
-    font-family: Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
     color: rgb(0, 0, 130)
 }
 
@@ -158,7 +175,7 @@ pTeamLarge{
     color: #000000;
     text-align: center;
     padding: 12px 16px;
-    font-family: Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
     text-decoration: none;
     font-size: 22px;
   }
